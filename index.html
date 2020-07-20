@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Simple survey form</title>
+        <link type="stylesheet" href="css/style1.css"/>
+    </head>
+    <body>
+        <header id="header">
+            <h1 id="title">TV-Series survey form</h1>
+            <p id="description">Thank you for taking your time to help us improve the platform</p>
+        </header>
+        <form id="survey-form">
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required/>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required/>
+            </div>
+
+            <div class="form-group">
+                <label for="number">Age:</label>
+                <input type="number" min="10" max="99" id="number" placeholder="age" required/>
+            </div>
+
+            <div class="form-group">
+                <select id="dropdown">
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="radio" />
+                <input type="radio" />
+                <input type="radio" />
+                <input type="radio" />
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+            </div>
+
+            <div class="form-group">
+                <textarea></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" />
+            </div>
+
+        </form>
+
+    </body>
+</html>
