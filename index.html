@@ -8,14 +8,14 @@
     <body>
         <div class="container">
             <header class="header">
-                <h1 id="title" class="text-center">TV-Series survey form</h1>
-                <p id="description" class="description text-center">Thank you for taking your time to help us improve the platform
+                <h1 id="title" class="text-center">Analog Signalovic</h1>
+                <p id="description" class="description text-center">
+                Thank you for taking your time to help us improve the platform
                 </p>
             </header>
             <form id="survey-form">
-
                 <div class="form-group">
-                    <label id="name-label" for="name">Name:</label>
+                    <label id="name-label" for="name">Name</label>
                     <input type="text" 
                            id="name" 
                            name="name" 
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label id="email-label" for="email">Email:</label>
+                    <label id="email-label" for="email">Email</label>
                     <input type="email" 
                            id="email" 
                            name="email"
@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label id="number-label" for="number">Age:</label>
+                    <label id="number-label" for="number">Age</label>
                     <input type="number" 
                            min="10" 
                            max="99" 
@@ -47,49 +47,49 @@
                 </div>
 
                 <div class="form-group">
-                    <p>Something something select</p>
+                    <p>Which tv brand you use with our platform</p>
                     <select id="dropdown"
                             name="role"
                             class="form-control"
                             required>
-                        <option disabled selected value>Select something</option>
-                        <option value="option_1">option 1</option>
-                        <option value="option_2">option 2</option>
-                        <option value="option_3">option 3</option>
+                        <option disabled selected value>Select brand</option>
+                        <option value="sony">Sony</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="quadro">Quadro</option>
+                        <option value="sharp">Sharp</option>
+                        <option value="philips">Philips</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <p>something something radio buttons</p>
-                    <label><input value="radio1" class="input-radio" name="user-recommend" type="radio" />radio 1</label> 
-                    <label><input value="radio2" class="input-radio" name="user-recommend" type="radio" />radio 2</label>
-                    <label><input value="radio3" class="input-radio" name="user-recommend" type="radio" />radio 3</label>
-                    <label><input value="radio4" class="input-radio" name="user-recommend" type="radio" />radio 4</label>
+                    <p>Would you recommend our platform to a friend?</p>
+                    <label><input value="yes" class="input-radio" name="user-recommend" type="radio" />Definitly</label> 
+                    <label><input value="no" class="input-radio" name="user-recommend" type="radio" />Nuuu</label>
+                    <label><input value="maybe" class="input-radio" name="user-recommend" type="radio" />Maybe</label>
                 </div>
 
                 <div class="form-group">
-                    <p>Something something another select</p>
+                    <p>Which is your favorite quality of our platform</p>
                     <select id="most-like"
                             name="mostLike"
                             class="form-control"
                             required>
-                        <option disabled selected value>Select something</option>
-                        <option value="option_1">option 1</option>
-                        <option value="option_2">option 2</option>
-                        <option value="option_3">option 3</option>
+                        <option disabled selected value>Select an option</option>
+                        <option value="design">Design</option>
+                        <option value="easy">Ease of use</option>
+                        <option value="speed">Responsiveness</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <p>something something checkbox</p>
-                    <label><input value="checkbox1" name="prefer" class="input-checkbox" type="checkbox" />checkbox1</label> 
-                    <label><input value="checkbox2" name="prefer" class="input-checkbox" type="checkbox" />checkbox2</label>
-                    <label><input value="checkbox3" name="prefer" class="input-checkbox" type="checkbox" />checkbox3</label>
-                    <label><input value="checkbox4" name="prefer" class="input-checkbox" type="checkbox" />checkbox4</label>
+                    <p>What would you like to see improved?</p>
+                    <label><input value="signal" name="prefer" class="input-checkbox" type="checkbox" />Signal</label> 
+                    <label><input value="image" name="prefer" class="input-checkbox" type="checkbox" />Image quality</label>
+                    <label><input value="availability" name="prefer" class="input-checkbox" type="checkbox" />Availability</label>
                 </div>
 
                 <div class="form-group">
-                    <p>something something text area</p>
+                    <p>Any comments or suggestions?</p>
                     <textarea
                         id="comments"
                         class="input-textarea"
